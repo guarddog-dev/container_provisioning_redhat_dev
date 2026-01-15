@@ -61,7 +61,7 @@ jobs:
           to: ${{ secrets.EMAIL }}
           from: GitHub Actions Automation
           body: |
-            GitHub Actions Automation Report
+            GitHub Actions Automation Report - Provisioning
             
             Status: ${{ env.STATUS || '🔴 FAILED (Unexpected Error)' }}
             Target Month: ${{ env.MONTH_STR }}
